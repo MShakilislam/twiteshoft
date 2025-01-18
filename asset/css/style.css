@@ -1,0 +1,274 @@
+
+/*
+Template Name : cuda
+Template :url:https://cuda.come
+Autor :Shakil
+Autor : url:https://Shakil.me
+Description : This Is Cuda Template
+*/
+
+
+@import url("../fonts/stylesheet.css");
+@import url("bootstrap.min.css");
+@import url("fontawesome.min.css");
+
+
+h1 h2 h3 h4 h5 h6 p{
+	margin: 0;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font-family: "Sniglet", serif;
+	font-weight: 700;
+}
+h2{
+	font-family: "Sniglet", serif;
+	font-weight: 700;
+}
+a{
+	text-decoration: none;
+}
+p{
+	font-weight: 400;
+	color:#747E88 ;
+}
+
+.section_padding{
+	padding: 50px 0;
+}
+
+  /*************************************************************************************************/
+ /*************************************  Header area css 1 ****************************************/
+/*************************************************************************************************/
+.header-area{
+	background: url(../images/background.png) no-repeat scroll 0 0 / 100% 100%;
+}
+.menu{
+	
+}
+.menu ul{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{}
+.menu ul li a{
+	display: block;
+	color: #747E88;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 10px 15px;
+	background: inherit;
+	text-decoration: none;
+	font-family:sans-serif;
+	border-radius: 8px;
+	transition: .5s;
+} 
+/*
+"Damion", serif
+*/
+.menu ul li a:hover{
+	background: #111827;
+	color: #fff;
+}
+.menu ul li.active a{
+	background: #111827;
+	color: #fff;
+}
+
+.home_text h1 {
+  padding-top: 160px;
+  font-size: 40px;
+  color: #747E88;
+}
+.home_text h1 span{
+	font-size: 44px;
+	color: #BF94D4;
+}
+.home_text p {
+  font-size: 16px;
+  padding-top: 25px;
+}
+.home_img img{
+	width: 100%;
+	height: auto;
+}
+
+.menu_icone {
+  font-size: 20px;
+  color: #000;
+  border: 2px solid #000;
+  float: right;
+  display: none;
+  line-height: 30px;
+  padding: 0px 9px;
+  border-radius: 3px;
+}
+.menu_icone:hover{
+	color: #efb70e;
+	border-color: #f9f904;
+}
+
+  /*************************************************************************************************/
+ /*************************************  Aboute area css 2 ****************************************/
+/*************************************************************************************************/
+.aboute_area{
+	
+}
+.header_text_area p{
+	font-weight: 600;
+	font-size: 22px;
+	color: #0168C6;
+	font-family:sans-serif;
+}
+.header_text_area h1 {
+  font-size: 40px;
+  color: #38424D;
+  font-family: sans-serif;
+  padding-bottom: 50px;
+}
+.aboute_img img{
+	width: 100%;
+	height: auto;
+}
+.about_content_top h3{
+	font-family: "Sniglet", serif;
+	font-size: 24px;	
+	padding-bottom: 20px;
+	color: #38424D;
+}
+.aboute_text_icone{
+	padding-right: 20px;
+}
+.aboute_text_icone i {
+    width: 30px;
+    height: 30px;
+    background: #0168C6;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+.aboute_text_right p span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+  /*************************************************************************************************/
+ /*************************************  work area css 3 ******************************************/
+/*************************************************************************************************/
+.work_header_text h1{
+	font-weight: 500;
+	font-size: 35px;
+	padding-bottom: 35px;
+}
+.work_icone{
+	padding: 20px 20px;
+	border: 2px dashed #e1e1ed;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.work_icone_area i {
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  background: #E5E5FF;
+  line-height: 85px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.work_icone_text h2{
+	font-size: 25px ;
+	padding: 20px 0;
+	font-weight: 400;
+}
+.work_icone:hover i {
+	background: #0168C6;
+	color: #fff;
+}
+.work_icone:hover {
+	border: 2px dashed #0168C6;
+}
+
+
+  /*************************************************************************************************/
+ /******************************** Sochile link area css 3 ****************************************/
+/*************************************************************************************************/
+
+.socile_link{
+	background: linear-gradient(to right, #D4EDE7,#D7EDE8,#D8EDE8,#DDEEE9,#DEEEE9,#DEEEE9,#E2EEEB,#DFEEEA,#E2EEEB,#E3EDEA,#E5EEEB,#EAEFEC,#EAEFEC,#EAEEEC,#ECEEEC,#EFEFED,#F2EFEE,#F5EFEF);
+}
+.twite_text p{
+	font-size: 16px;
+	padding-top: 30px;
+}
+.Quick_Links h4{
+	font-size: 20px;
+	color: #64748B;
+	padding: 25px 0;
+}
+
+.Quick_Links ul li a{
+	display: block;
+	font-size: 18px;
+	color:#64748B ;
+	padding: 2px 0;
+	text-decoration: none;
+}
+.Resources h4{
+	font-size: 20px;
+	color: #64748B;
+	padding: 25px 0;
+}
+
+.Resources ul li a{
+	display: block;
+	font-size: 18px;
+	color:#64748B ;
+	padding: 2px 0;
+	text-decoration: none;
+}
+.Find_Us h4{
+	font-size: 20px;
+	color: #64748B;
+	padding: 25px 0;
+}
+.Find_Us ul li{
+	font-size: 18px;
+	color:#64748B ;
+	padding: 2px 0;
+}
+
+.protfolio_area{
+	background: linear-gradient(to right, #D4EDE7,#D7EDE8,#D8EDE8,#DDEEE9,#DEEEE9,#DEEEE9,#E2EEEB,#DFEEEA,#E2EEEB,#E3EDEA,#E5EEEB,#EAEFEC,#EAEFEC,#EAEEEC,#ECEEEC,#EFEFED,#F2EFEE,#F5EFEF);
+
+}
+.protfolio_copy_right{
+	display: flex;
+	justify-content: space-between;
+}
+.Protfolio_icone ul{
+	display: flex;
+}
+.Protfolio_icone ul li a{
+	padding: 0 10px;
+}
+.Protfolio_icone ul li a i{
+	width: 40px;
+	height: 40px;
+	background: #385369;
+	border-radius: 50%;
+	line-height: 36px;
+	text-align: center;
+	color: #E5EEEB;
+	transition: .5s;
+}
+.Protfolio_icone ul li a:hover i{
+	color: #fff;
+	background: #0168C6;
+}
